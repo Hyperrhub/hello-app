@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+.div-component{
+  width: 1000px;
+  height: 1000px;
+  /* border: solid 1px black ; */
+  /* background-color: black; */
+}
+.myPaletteDiv{
+  width: 200px;
+  height: 1000px;
+  /* background-color: black;
+  padding-top: 100px; */
+}

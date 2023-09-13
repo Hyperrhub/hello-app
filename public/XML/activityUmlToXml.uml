@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_JiLewAnJEe6HXcv03Zd45Q" name="activityUmlToXml">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_JtFuQAnJEe6HXcv03Zd45Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_JlWukAnJEe6HXcv03Zd45Q" name="Activity1" node="_fSdFcAnPEe6HXcv03Zd45Q _UTQ0AAnPEe6HXcv03Zd45Q _BYAD4AnPEe6HXcv03Zd45Q _isVn0AnOEe6HXcv03Zd45Q _hw0TYAnREe6HXcv03Zd45Q _q76xAAnREe6HXcv03Zd45Q _rn_M0AnREe6HXcv03Zd45Q">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8VE1MAnREe6HXcv03Zd45Q" target="_hw0TYAnREe6HXcv03Zd45Q" source="_isVn0AnOEe6HXcv03Zd45Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_FpkfYAnSEe6HXcv03Zd45Q" target="_BYAD4AnPEe6HXcv03Zd45Q" source="_hw0TYAnREe6HXcv03Zd45Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Nf9M0AnSEe6HXcv03Zd45Q" name="yes" target="_rn_M0AnREe6HXcv03Zd45Q" source="_BYAD4AnPEe6HXcv03Zd45Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_TDDpAAnSEe6HXcv03Zd45Q" name="no" target="_q76xAAnREe6HXcv03Zd45Q" source="_BYAD4AnPEe6HXcv03Zd45Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U67JkAnSEe6HXcv03Zd45Q" target="_UTQ0AAnPEe6HXcv03Zd45Q" source="_rn_M0AnREe6HXcv03Zd45Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Xd4OgAnSEe6HXcv03Zd45Q" target="_UTQ0AAnPEe6HXcv03Zd45Q" source="_q76xAAnREe6HXcv03Zd45Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0xc2QAnSEe6HXcv03Zd45Q" target="_fSdFcAnPEe6HXcv03Zd45Q" source="_UTQ0AAnPEe6HXcv03Zd45Q"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_isVn0AnOEe6HXcv03Zd45Q" name="InitialNode1" outgoing="_8VE1MAnREe6HXcv03Zd45Q"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_BYAD4AnPEe6HXcv03Zd45Q" name="time to wake up" incoming="_FpkfYAnSEe6HXcv03Zd45Q" outgoing="_Nf9M0AnSEe6HXcv03Zd45Q _TDDpAAnSEe6HXcv03Zd45Q"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_UTQ0AAnPEe6HXcv03Zd45Q" name="DecisionNode4" incoming="_U67JkAnSEe6HXcv03Zd45Q _Xd4OgAnSEe6HXcv03Zd45Q" outgoing="_0xc2QAnSEe6HXcv03Zd45Q"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_fSdFcAnPEe6HXcv03Zd45Q" name="ActivityFinalNode7" incoming="_0xc2QAnSEe6HXcv03Zd45Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_hw0TYAnREe6HXcv03Zd45Q" name="alaram rings" incoming="_8VE1MAnREe6HXcv03Zd45Q" outgoing="_FpkfYAnSEe6HXcv03Zd45Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_q76xAAnREe6HXcv03Zd45Q" name="roll over" incoming="_TDDpAAnSEe6HXcv03Zd45Q" outgoing="_Xd4OgAnSEe6HXcv03Zd45Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_rn_M0AnREe6HXcv03Zd45Q" name="open eyes" incoming="_Nf9M0AnSEe6HXcv03Zd45Q" outgoing="_U67JkAnSEe6HXcv03Zd45Q"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_7dpecBTIEe6CMbYozSZE-w" name="UseCaseDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_7hZ9EBTIEe6CMbYozSZE-w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_FiF-4BTJEe6CMbYozSZE-w" name="Player"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_RRflQBTJEe6CMbYozSZE-w" name="package">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NQoX4BTJEe6CMbYozSZE-w" name="Draw Card"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NtiWUBTJEe6CMbYozSZE-w" name="Play Card"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OvlCIBTJEe6CMbYozSZE-w" name="Deal Cards"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Yvj5UBTJEe6CMbYozSZE-w" memberEnd="_Yvr1IBTJEe6CMbYozSZE-w _Yv2NMBTJEe6CMbYozSZE-w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YvoKwBTJEe6CMbYozSZE-w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YvoKwRTJEe6CMbYozSZE-w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Yvr1IBTJEe6CMbYozSZE-w" name="usecase3" type="_NQoX4BTJEe6CMbYozSZE-w" association="_Yvj5UBTJEe6CMbYozSZE-w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Yv2NMBTJEe6CMbYozSZE-w" name="player" type="_FiF-4BTJEe6CMbYozSZE-w" association="_Yvj5UBTJEe6CMbYozSZE-w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ajwa0BTJEe6CMbYozSZE-w" memberEnd="_ajxo8hTJEe6CMbYozSZE-w _ajxo8xTJEe6CMbYozSZE-w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ajxo8BTJEe6CMbYozSZE-w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ajxo8RTJEe6CMbYozSZE-w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ajxo8hTJEe6CMbYozSZE-w" name="usecase4" type="_NtiWUBTJEe6CMbYozSZE-w" association="_ajwa0BTJEe6CMbYozSZE-w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ajxo8xTJEe6CMbYozSZE-w" name="player" type="_FiF-4BTJEe6CMbYozSZE-w" association="_ajwa0BTJEe6CMbYozSZE-w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bO3NUBTJEe6CMbYozSZE-w" memberEnd="_bO30YhTJEe6CMbYozSZE-w _bO30YxTJEe6CMbYozSZE-w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bO30YBTJEe6CMbYozSZE-w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bO30YRTJEe6CMbYozSZE-w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bO30YhTJEe6CMbYozSZE-w" name="usecase5" type="_OvlCIBTJEe6CMbYozSZE-w" association="_bO3NUBTJEe6CMbYozSZE-w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bO30YxTJEe6CMbYozSZE-w" name="player" type="_FiF-4BTJEe6CMbYozSZE-w" association="_bO3NUBTJEe6CMbYozSZE-w"/>
+  </packagedElement>
+</uml:Model>
