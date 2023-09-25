@@ -51,6 +51,7 @@ function App() {
     <div className="App">
      <BlockDiagram xml={user} nodedata={nodeDataArray} linkdata={linkDataArray}/>
      {/* <MyDiagram></MyDiagram> */}
+   
     </div>
   );
 }
